@@ -9,5 +9,7 @@ CREATE TABLE `react_crud`.`users`
     `email` varchar(60),
     `mobile` bigint(10),
     `created_at` timestamp,
-    `updated_at` timestamp, PRIMARY KEY (id)
+    PRIMARY KEY (id)
 );
+
+ALTER TABLE `users` ADD `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP();
