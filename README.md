@@ -3,6 +3,25 @@
 ## Tutorial Article
 + https://dev.to/durgeshsahani/react-crud-operations-using-php-api-and-mysql-13da
 
+## How to Use(Take Win10 as example)
+1. Install [Node.js](https://nodejs.org/en/) & [XAMPP](https://www.apachefriends.org/)
+2. Assuming you have installed XAMPP on the Default Path
+3. Place this project folder under ``` C:\xampp\htdocs\ ```, Full Path may look like this:
+```
+C:\xampp\htdocs\react-crud-php-api-mysql
+```
+4. Copy the ```api``` folder inside this project and paste it under that path
+```
+C:\xampp\htdocs\
+```
+5. Execute SQL file to create Database. File ```react-crud.sql``` is at the root of this project
+6. Now run the command below inside this project directory
+```
+npm install && npm run start
+```
+
+### Finish! Visit http://localhost:3000 and that should work
+
 #### Following points have been covered in this tutorials
 - ReactJs introduction, Create React APP, NodeJs NPM and Homebrew installations
 - Create Link and Handle Routing in React | react-router-dom package installation
